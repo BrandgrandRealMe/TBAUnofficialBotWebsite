@@ -15,12 +15,12 @@ const Showcase = () => {
       <main className="showcase">
       <Image
                     src={Logo}
-                    width={250}
-                    height={250}
+                    width={100}
+                    height={100}
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
-        <h1 className="showcase-header h-color">BOT</h1>
+        <h1 className="showcase-header h-color">TBAUnofficial</h1>
         <h2 className="showcase-header-text h-color">
           The only FRC or TBA discord bot you need!
         </h2>
