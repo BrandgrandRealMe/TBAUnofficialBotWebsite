@@ -28,7 +28,7 @@
     margin: 2rem;
   }
 
-  @media screen and (max-width: 260px) {
+  @media screen and (max-width: 768px) {
     flex-direction: row;
     .showcase-header {
       font-weight: 900;
