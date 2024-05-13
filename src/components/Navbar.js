@@ -9,8 +9,6 @@ const Navbar = () => {
         <nav className="navbar-header">
         <Image
                     src={Logo}
-                    width={100}
-                    height={100}
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
