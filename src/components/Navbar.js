@@ -11,7 +11,7 @@ const Navbar = () => {
                     src={Logo}
                     alt="TBA logo but gold"
                     className="Logo circle"
-                  />{" "}
+                  />
           <ul>
             <li>
               <Link className="h-color" href="/">
