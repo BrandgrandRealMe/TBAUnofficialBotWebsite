@@ -5,6 +5,7 @@
   text-align: center;
   align-items: center;
   height: 30rem;
+  width: auto;
   flex-direction: column;
   margin: 0.5rem;
   .showcase-header {
@@ -12,9 +13,6 @@
     flex-wrap: wrap;
     padding: 1rem;
     font-size: 4.3rem;
-  }
-  h1 {
-    font-size: 2rem;
   }
   h2 {
     font-size: 1rem;
