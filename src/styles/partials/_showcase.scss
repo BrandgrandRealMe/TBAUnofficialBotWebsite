@@ -13,6 +13,9 @@
     padding: 1rem;
     font-size: 4.3rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
   h2 {
     font-size: 1rem;
     font-weight: normal;
@@ -29,5 +32,9 @@
 
   @media screen and (max-width: 260px) {
     flex-direction: row;
+  }
+  .Logo {
+    width: 5rem;
+    height: 5rem;
   }
 }

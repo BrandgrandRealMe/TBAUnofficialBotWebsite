@@ -15,8 +15,6 @@ const Showcase = () => {
       <main className="showcase">
       <Image
                     src={Logo}
-                    width={100}
-                    height={100}
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
@@ -25,11 +23,8 @@ const Showcase = () => {
           The only FRC or TBA discord bot you need!
         </h2>
         <p className="showcase-para p-color">
-          One of the awesome discord bot with tons of commands that will fill
-          your TBA and FRC needs in your discord server.
+          Developed by FRC member Brandon [@BrandgrandReal] for other FRC members to fetch information from TBA and my own DB.
         </p>
-
-        <span className="p-color">Bot is probably online!</span>
         <div className="showcase-btn">
           <button className="btn">
             <Link className="h-color no-decoration" href="https://discord.com/oauth2/authorize?client_id=1232012960692568065&permissions=68608&scope=bot+applications.commands">
@@ -40,6 +35,12 @@ const Showcase = () => {
           <button className="btn">
             <Link className="h-color no-decoration" href="https://discord.gg/27qSubkcqV">
               Join server!
+            </Link>
+          </button>
+
+          <button className="btn">
+            <Link className="h-color no-decoration" href="https://ko-fi.com/brandonthedev">
+              Donate!
             </Link>
           </button>
         </div>
