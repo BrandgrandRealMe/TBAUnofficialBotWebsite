@@ -15,8 +15,8 @@ const Showcase = () => {
       <main className="showcase">
       <Image
                     src={Logo}
-                    width={500}
-                    height={500}
+                    width={250}
+                    height={250}
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
