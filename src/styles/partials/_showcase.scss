@@ -15,13 +15,13 @@
     font-size: 4.3vw;
   }
   h2 {
-    font-size: 3vw;
+    font-size: 1vw;
     font-weight: normal;
   }
   p {
     flex-wrap: wrap;
     font-size: medium;
-    font-size: 2vw;
+    font-size: 0.9vw;
   }
   .showcase-btn {
     font-size: 1.3rem;
@@ -30,6 +30,21 @@
 
   @media screen and (max-width: 260px) {
     flex-direction: row;
+    .showcase-header {
+      font-weight: 900;
+      flex-wrap: wrap;
+      padding: 1rem;
+      font-size: 4.3vw;
+    }
+    h2 {
+      font-size: 3vw;
+      font-weight: normal;
+    }
+    p {
+      flex-wrap: wrap;
+      font-size: medium;
+      font-size: 2vw;
+    }
   }
   .Logo {
     width: 10rem;
