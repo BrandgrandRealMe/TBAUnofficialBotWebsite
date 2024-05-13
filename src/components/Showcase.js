@@ -15,10 +15,10 @@ const Showcase = () => {
       <main className="showcase">
       <Image
                     src={Logo}
-                    width={50}
-                    height={50}
+                    width={500}
+                    height={500}
                     alt="TBA logo but gold"
-                    className="Logo"
+                    className="Logo circle"
                   />{" "}
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
