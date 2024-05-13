@@ -9,11 +9,12 @@
   margin: 1.4rem;
   justify-content: space-between;
   width: auto;
+  align-items: center;
   .Logo {
     width: 2rem;
     height: 2rem;
     margin: 0.6rem;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
   }
   .navbar-header {
