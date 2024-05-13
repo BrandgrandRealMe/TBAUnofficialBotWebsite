@@ -7,12 +7,12 @@ const Navbar = () => {
     <div>
       <navbar className="navbar">
         <nav className="navbar-header">
-        <Image
+          <ul class="navbarTitle">
+          <Image
                     src={Logo}
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />
-          <ul>
             <li>
               <Link className="h-color" href="/">
                 TBAUnofficial
