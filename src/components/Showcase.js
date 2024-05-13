@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Logo from "../utils/images/TBAgold.png";
 
 
@@ -16,8 +17,8 @@ const Showcase = () => {
                     src={Logo}
                     width={50}
                     height={50}
-                    alt="online-status"
-                    className="onlineStatus"
+                    alt="TBA logo but gold"
+                    className="Logo"
                   />{" "}
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
