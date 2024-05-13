@@ -9,11 +9,12 @@ import About from "@/components/About";
 import JoinNow from "@/components/JoinNow";
 import Footer from "@/components/Footer";
 
+
 export default function Home() {
   return (
     <>
       <Head>
-        <title>BOT</title>
+        <title>TBAUnofficial</title>
         <meta
           name="description"
           content="Minimal and awesome discord bot website created with ❤️ using NextJS"

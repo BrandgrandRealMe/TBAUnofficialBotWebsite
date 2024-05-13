@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Logo from "../utils/images/TBAgold.png";
+
 
 const Showcase = () => {
   return (
@@ -10,6 +12,13 @@ const Showcase = () => {
       animate={{ opacity: 1 }}
     >
       <main className="showcase">
+      <Image
+                    src={Logo}
+                    width={50}
+                    height={50}
+                    alt="online-status"
+                    className="onlineStatus"
+                  />{" "}
         <h1 className="showcase-header h-color">BOT</h1>
         <h2 className="showcase-header-text h-color">
           The only FRC or TBA discord bot you need!
