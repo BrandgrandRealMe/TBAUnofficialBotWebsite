@@ -13,7 +13,7 @@
   .about-container {
     padding: 2rem;
     flex-wrap: wrap;
-    width: auto;
+    width: 55%;
     margin: 2rem;
     background-color: #1111128b;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -21,6 +21,15 @@
     border-radius: 5px;
 
     .about-card {
+      color: whitesmoke;
+      .quote {
+        color: lightgoldenrodyellow;
+        padding-top: 4rem;
+        .quote-author {
+          float: right;
+          color:goldenrod;
+        }
+      }
       h4 {
         font-weight: normal;
         font-size: 1.2rem;
@@ -149,17 +158,17 @@ input:checked + section.box .box-title:before {
 
 .about-stats {
   margin-top: 4rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  .about-stats-card {
+  .stat-header {
+    width: 100%;
+  }
+  .stat {
     margin: 1rem;
     padding: 1rem;
-
-    h4 {
-      font-size: 1.6rem;
-    }
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
   }
 }

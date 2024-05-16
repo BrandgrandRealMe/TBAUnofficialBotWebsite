@@ -1,6 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import botOnlineStatus from "../utils/images/botStatus.svg";
+import Logo from "../utils/images/TBAgold.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -9,6 +13,13 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-sec1">
           <div className="footer-header">
+          <Image
+                    src={Logo}
+                    width={50}
+                    height={50}
+                    alt="Bot logo"
+                    className="botLogo circle"
+                  />
             <ul>
               <li>
                 <Link className="h-color" href="/">
@@ -43,13 +54,13 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
+                <Link target="_blank" className="p-color" href="https://discord.gg/27qSubkcqV">
                   /support
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
-                  /discord-server
+                <Link className="p-color" href="/license">
+                  /license
                 </Link>
               </li>
             </ul>
@@ -67,12 +78,9 @@ const Footer = () => {
                 BrandgrandReal (Brandon)
               </Link>
             </p>
-            <p className="p-color">{year} &copy; All rights reserved!</p>
+            <p className="p-color">{year} <FontAwesomeIcon icon={faCopyright} /> All rights reserved! <Link className="p-color no-decoration" href="/license" >GNU General Public License</Link></p>
           </div>
           <div className="footer-sec2-link">
-            <Link className="p-color no-decoration" href="#">
-              /support
-            </Link>
             <Link
               target="_blank"
               className="p-color no-decoration"
@@ -80,8 +88,19 @@ const Footer = () => {
             >
               /source-code
             </Link>
-            <Link className="p-color no-decoration" href="#">
+            <Link
+              target="_blank"
+              className="p-color no-decoration"
+              href="https://brandonthedev.notion.site/TBAUnofficial-Privacy-Policy-1beb566aa2ce4bd79bb4a7a972818d74?pvs=4"
+            >
               /privacy
+            </Link>
+            <Link
+              target="_blank"
+              className="p-color no-decoration"
+              href="https://brandonthedev.notion.site/Terms-of-Service-for-TBAUnofficial-Discord-Bot-0433859325d74d979f04fa4c75c447ed"
+            >
+              /tos
             </Link>
           </div>
         </div>

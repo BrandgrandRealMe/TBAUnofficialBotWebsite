@@ -17,7 +17,7 @@ export default function Commands() {
         <title>Commands | TBAUnofficial</title>
         <meta
           name="description"
-          content="Commands page | Developed by FRC member Brandon [@BrandgrandReal] for other FRC members to fetch information from TBA and my own DB."
+          content="Commands page | TBAUnofficial | Developed by FRC member Brandon [@BrandgrandReal] for other FRC members to fetch information from TBA and my own DB."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

@@ -33,21 +33,20 @@
   }
 
   @media screen and (max-width: 768px) {
-    flex-direction: row;
     .showcase-header {
       font-weight: 900;
       flex-wrap: wrap;
       padding: 1rem;
-      font-size: 4.3vw;
+      font-size: 6.3vw;
     }
     h2 {
-      font-size: 3vw;
+      font-size: 4vw;
       font-weight: normal;
     }
     p {
       flex-wrap: wrap;
       font-size: medium;
-      font-size: 2vw;
+      font-size: 3vw;
     }
     .Logo {
       width: 10vw;

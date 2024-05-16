@@ -1,0 +1,15 @@
+.license {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .LicenseText {
+        color: aliceblue;
+        width: 55%;
+        .center-text {
+            text-align: center;
+        }
+        p {
+            margin: 1.4rem;
+        }
+    }
+}
