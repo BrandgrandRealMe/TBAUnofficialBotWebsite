@@ -89,16 +89,14 @@ const Footer = () => {
               /source-code
             </Link>
             <Link
-              target="_blank"
               className="p-color no-decoration"
-              href="https://brandonthedev.notion.site/TBAUnofficial-Privacy-Policy-1beb566aa2ce4bd79bb4a7a972818d74?pvs=4"
+              href="/privacy"
             >
               /privacy
             </Link>
             <Link
-              target="_blank"
               className="p-color no-decoration"
-              href="https://brandonthedev.notion.site/Terms-of-Service-for-TBAUnofficial-Discord-Bot-0433859325d74d979f04fa4c75c447ed"
+              href="/tos"
             >
               /tos
             </Link>

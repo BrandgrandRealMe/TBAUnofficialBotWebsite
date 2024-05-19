@@ -1,0 +1,16 @@
+.privacy {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .privacyText {
+        width: 55%;
+        .center-text {
+            text-align: center;
+        }
+        p {
+            padding: 1rem;
+        }
+    }
+}
