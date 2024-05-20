@@ -1,0 +1,76 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+    width: 100%;
+
+    h3 {
+        color: #eee;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.9rem;
+    }
+    .contact-header {
+        padding-top: 2rem;
+    }
+
+    .contacts {
+        padding: 2rem;
+        flex-wrap: wrap;
+        width: 55%;
+        margin: 2rem;
+        background-color: #1111128b;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+
+
+        .contact {
+            width: 100%;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+
+            h5 {
+                font-size: 1.5rem
+            }
+
+            .icon {
+                display: flex;
+                padding: 2rem;
+                margin: 2rem;
+                background-color: #4e4c43be;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(5px);
+                width: 3rem;
+                height: 3rem;
+                border-radius: 5px;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    .discord-embed-header {
+        padding-top: 2rem;
+    }
+
+    .discord-embed {
+        padding: 2rem;
+        flex-wrap: wrap;
+        width: 55%;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        background-color: #1111128b;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+    }
+}

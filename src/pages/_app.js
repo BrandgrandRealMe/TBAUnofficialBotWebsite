@@ -7,6 +7,7 @@ import "@/styles/partials/_joinUs.scss";
 import "@/styles/partials/_footer.scss";
 import "@/styles/partials/_tos.scss";
 import "@/styles/partials/_privacy.scss";
+import "@/styles/partials/_contact.scss";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";

@@ -8,6 +8,7 @@ import Showcase from "@/components/Showcase";
 import About from "@/components/About";
 import JoinNow from "@/components/JoinNow";
 import Footer from "@/components/Footer";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Navbar />
       <Showcase />
       <About />
+      <Contact />
       <JoinNow />
       <Footer />
     </>
