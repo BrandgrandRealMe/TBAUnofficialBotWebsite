@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="discord-embed">
                     <WidgetBot
                             server="1228029162099310633"
-                            channel="1233111568519270580"
+                            channel="1242205115817922752"
                             width={((53 / 100) * size.width).toFixed(0)}
                             height={500}
                         /> 
