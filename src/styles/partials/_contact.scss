@@ -76,6 +76,22 @@
 }
 @media screen and (max-width: 768px) { 
     .contact-section {
+        .contacts {
+            .contact {
+                h5 {
+                    font-size: 2vw
+                }
+                .icon {
+                    padding: 3vw;
+                    margin: 3vw;
+                    width: 3vw;
+                    height: 3vw;
+                    svg {
+                        font-size: 3vw;
+                    }
+                }
+            }
+        }
         .discord-embed-header { 
             display: none;
         }
