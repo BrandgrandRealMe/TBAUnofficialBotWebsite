@@ -1,5 +1,7 @@
+@import '@/styles/colors.scss';
+
 .tos {
-    color: aliceblue;
+    color: $secondary-foreground;
     display: flex;
     justify-content: center;
     align-items: center;

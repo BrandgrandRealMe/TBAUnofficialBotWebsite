@@ -1,5 +1,7 @@
+@import '@/styles/colors.scss';
+
 .privacy {
-    color: aliceblue;
+    color: $secondary-foreground;
     display: flex;
     flex-direction: column;
     justify-content: center;

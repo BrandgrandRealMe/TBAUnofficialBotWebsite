@@ -1,4 +1,5 @@
 import "@/styles/globals.scss";
+import "@/styles/colors.scss";
 import "@/styles/partials/_navbar.scss";
 import "@/styles/partials/_showcase.scss";
 import "@/styles/partials/_about.scss";

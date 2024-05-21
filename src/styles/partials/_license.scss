@@ -1,9 +1,11 @@
+@import '@/styles/colors.scss';
+
 .license {
     display: flex;
     justify-content: center;
     align-items: center;
     .LicenseText {
-        color: aliceblue;
+        color: $secondary-foreground;
         width: 55%;
         .center-text {
             text-align: center;

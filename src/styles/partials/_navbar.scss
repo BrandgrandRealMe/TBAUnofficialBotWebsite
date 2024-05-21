@@ -1,10 +1,12 @@
+@import '@/styles/colors.scss';
+
 .navbar {
-  background-color: #2b2b2e52;
+  background-color: $tertiary-background;
   backdrop-filter: blur(6px);
   display: flex;
   padding: 1.8rem 2rem;
   border-radius: 3px;
-  border: 1px solid #cccccc21;
+  border: 1px solid $nav-border;
   flex-wrap: wrap;
   margin: 1.4rem;
   justify-content: space-between;
@@ -37,7 +39,7 @@
         text-decoration: none;
         transition: 0.3s all ease-in-out;
         &:hover {
-          color: #e7e7e7;
+          color: $fh-link-hover;
         }
       }
     }

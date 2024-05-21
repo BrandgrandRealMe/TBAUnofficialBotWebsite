@@ -1,13 +1,15 @@
+@import '@/styles/colors.scss';
+
 .contact-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: #eee;
+    color: $secondary-foreground;
     width: 100%;
 
     h3 {
-        color: #eee;
+        color: $primary-foreground;
         text-align: center;
         font-weight: bold;
         font-size: 1.9rem;
@@ -21,8 +23,8 @@
         flex-wrap: wrap;
         width: 55%;
         margin: 2rem;
-        background-color: #1111128b;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: $quaternary-background;
+        border: 1px solid rgba($primary-foreground, 0.1);
         backdrop-filter: blur(5px);
         border-radius: 5px;
 
@@ -41,15 +43,15 @@
                 display: flex;
                 padding: 2vw;
                 margin: 2vw;
-                background-color: #4e4c43be;
-                border: 1px solid rgba(255, 255, 255, 0.1);
+                background-color: $tertiary-background;
+                border: 1px solid rgba($primary-foreground, 0.1);
                 backdrop-filter: blur(5px);
                 width: 2vw;
                 height: 2vw;
                 border-radius: 5px;
                 align-items: center;
                 justify-content: center;
-
+                color: $quaternary-foreground;
                 svg {
                     font-size: 2vw;
                 }
@@ -68,8 +70,8 @@
         align-items: center;
         justify-content: center;
         margin: 2rem;
-        background-color: #1111128b;
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: $quaternary-background;
+        border: 1px solid rgba($primary-foreground, 0.1);
         backdrop-filter: blur(5px);
         border-radius: 5px;
     }

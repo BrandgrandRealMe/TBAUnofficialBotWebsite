@@ -1,3 +1,5 @@
+@import '@/styles/colors.scss';
+
 .joinUs {
   display: flex;
   justify-content: center;
@@ -10,7 +12,7 @@
       font-size: 1.9rem;
       margin: 1rem;
       font-weight: bold;
-      color: #eee;
+      color: $primary-foreground;
     }
   }
   .joinUs-para {

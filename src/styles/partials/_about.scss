@@ -1,3 +1,5 @@
+@import '@/styles/colors.scss';
+
 .about-section {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
   align-items: center;
 
   h3 {
-    color: #eee;
+    color: $secondary-foreground;
     text-align: center;
     font-weight: bold;
     font-size: 1.9rem;
@@ -16,21 +18,21 @@
     flex-wrap: wrap;
     width: 55%;
     margin: 2rem;
-    background-color: #1111128b;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: $quaternary-background;
+    border: 1px solid rgba($primary-foreground, 0.1);
     backdrop-filter: blur(5px);
     border-radius: 5px;
 
     .about-card {
-      color: whitesmoke;
+      color: $primary-foreground;
 
       .quote {
-        color: lightgoldenrodyellow;
+        color: $tertiary-foreground;
         padding-top: 4rem;
 
         .quote-author {
           float: right;
-          color: goldenrod;
+          color: $quaternary-foreground;
         }
       }
 
@@ -67,7 +69,7 @@
 .box {
   position: relative;
   background-color: #1111128b;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba($primary-foreground, 0.1);
   backdrop-filter: blur(5px);
   border-radius: 5px;
   height: 64px;
@@ -88,8 +90,8 @@
 }
 
 header.box {
-  background-color: #1111128b;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: $quaternary-background;
+  border: 1px solid rgba($primary-foreground, 0.1);
   backdrop-filter: blur(5px);
   z-index: 100;
   height: 7rem;
