@@ -18,14 +18,14 @@ const Showcase = () => {
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
-        <h1 className="showcase-header h-color">TBAUnofficial</h1>
+        <h1 className="showcase-header h-color">TBA<hl>Unofficial</hl></h1>
         <h2 className="showcase-header-text h-color">
-          The only FRC or TBA discord bot you need!
+          The only <b>FRC</b> or <b>TBA</b> discord bot you need!
         </h2>
         <p className="showcase-para p-color">
           Developed by FRC member Brandon [@BrandgrandReal] for other FRC members to fetch information from TBA and my own DB.
         </p>
-        <div className="showcase-btn">
+        <div className="showcase-btns">
           <button className="btn">
             <Link className="h-color no-decoration" href="https://discord.com/oauth2/authorize?client_id=1232012960692568065&permissions=68608&scope=bot+applications.commands">
               Invite now!

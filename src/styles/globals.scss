@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import '@/styles/colors.scss';
 
+$background-dot-size: 0.038vw;
+$background-dot-transparency: 0.1;
+
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
+}
+
+hl {
+  color: $quaternary-foreground;
 }
 
 body {
@@ -15,8 +22,8 @@ body {
   background-color: $primary-background;
   animation: bodyFadeIn 1.2s ease-in-out;
   -webkit-tap-highlight-color: #08080800;
-  background-image: radial-gradient($secondary-background 0.5px, transparent 0.5px),
-    radial-gradient($secondary-background 0.5px, $primary-background 0.5px);
+  background-image: radial-gradient(rgba($secondary-background, $background-dot-transparency) $background-dot-size, transparent $background-dot-size),
+  radial-gradient(rgba($secondary-background, $background-dot-transparency) $background-dot-size, $primary-background $background-dot-size);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
 }
@@ -81,3 +88,4 @@ body {
 .white-text {
   color: $primary-foreground;
 }
+

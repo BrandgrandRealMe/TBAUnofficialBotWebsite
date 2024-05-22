@@ -7,6 +7,9 @@
   text-align: center;
   flex-direction: column;
   margin: 7rem 0;
+  .joinUs-buttons {
+    flex-direction: row;
+  }
   .joinUs-header {
     h3 {
       font-size: 1.9rem;
