@@ -20,9 +20,9 @@ const Contact = () => {
                 <h3 className="h-color">Contact Me</h3>
                 </div>
                     <div className="contacts">
-                        <Link className="h-color" target="_blank" href="mailto:BrandonTheDev@proton.me">
+                        <Link className="h-color" target="_blank" href="mailto:tbaunofficialsupport@brandgrand.rocks">
                             <div className="contact">
-                                <div className="icon"><FontAwesomeIcon icon={faAt} /></div><h5>BrandonTheDev@proton.me</h5>
+                                <div className="icon"><FontAwesomeIcon icon={faAt} /></div><h5>tbaunofficialsupport@brandgrand.rocks</h5>
                             </div>
                         </Link>
                         <div className="contact">
