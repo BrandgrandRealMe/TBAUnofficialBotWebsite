@@ -17,7 +17,7 @@ const JoinNow = () => {
             </Link>
           </button>
           <button className="btn">
-            <Link className="h-color no-decoration" href="https://discord.gg/27qSubkcqV">
+            <Link className="h-color no-decoration" href="https://discord.gg/rwzyj5AWpJ">
               Join Server!
             </Link>
           </button>

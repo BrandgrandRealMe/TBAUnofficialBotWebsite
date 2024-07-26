@@ -28,7 +28,7 @@ const Contact = () => {
                         <div className="contact">
                             <div className="icon"><FontAwesomeIcon icon={faDiscord} /></div><h5>@brandgrandreal</h5>
                         </div>
-                        <Link className="h-color" target="_blank" href="https://discord.gg/27qSubkcqV">
+                        <Link className="h-color" target="_blank" href="https://discord.gg/rwzyj5AWpJ">
                             <div className="contact">
                                 <div className="icon"><FontAwesomeIcon icon={faDiscord} /></div><h5>.gg/27qSubkcqV</h5>
                             </div>
@@ -39,8 +39,8 @@ const Contact = () => {
                 </div>
                     <div className="discord-embed">
                     <WidgetBot
-                            server="1228029162099310633"
-                            channel="1242205115817922752"
+                            server="1266439910945067028"
+                            channel="1266440397882917060"
                             width={((53 / 100) * size.width).toFixed(0)}
                             height={500}
                         /> 

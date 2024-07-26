@@ -54,7 +54,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link target="_blank" className="p-color" href="https://discord.gg/27qSubkcqV">
+                <Link target="_blank" className="p-color" href="https://discord.gg/rwzyj5AWpJ">
                   /support
                 </Link>
               </li>
