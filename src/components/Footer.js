@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import botOnlineStatus from "../utils/images/botStatus.svg";
-import Logo from "../utils/images/TBAgold.png";
+import Logo from "../utils/images/PFP.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
@@ -23,7 +23,7 @@ const Footer = () => {
             <ul>
               <li>
                 <Link className="h-color" href="/">
-                  TBAUnofficial
+                  Coopertron
                 </Link>
                 <span
                   style={{
@@ -84,7 +84,7 @@ const Footer = () => {
             <Link
               target="_blank"
               className="p-color no-decoration"
-              href="https://github.com/BrandgrandRealMe/TBAUnofficialDiscordBot"
+              href="https://github.com/BrandgrandRealMe/CoopertronDiscordBot"
             >
               /source-code
             </Link>

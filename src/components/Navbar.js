@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../utils/images/TBAgold.png";
+import Logo from "../utils/images/PFP.png";
 
 const Navbar = () => {
   return (
@@ -10,12 +10,12 @@ const Navbar = () => {
           <ul className="navbarTitle">
             <Image
               src={Logo}
-              alt="TBA logo but gold"
+              alt="Coopertron Logo"
               className="Logo circle"
             />
             <li>
               <Link className="h-color" href="/">
-                TBAUnofficial
+                Coopertron
               </Link>
             </li>
           </ul>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <li>
               <Link
                 className="p-color"
-                href="https://github.com/BrandgrandRealMe/TBAUnofficialDiscordBot"
+                href="https://github.com/BrandgrandRealMe/CoopertronDiscordBot"
                 target="_blank"
               >
                 /source-code

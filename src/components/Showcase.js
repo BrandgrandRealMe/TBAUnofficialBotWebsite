@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Logo from "../utils/images/TBAgold.png";
+import Logo from "../utils/images/PFP.png";
 
 
 const Showcase = () => {
@@ -18,7 +18,7 @@ const Showcase = () => {
                     alt="TBA logo but gold"
                     className="Logo circle"
                   />{" "}
-        <h1 className="showcase-header h-color">TBA<hl>Unofficial</hl></h1>
+        <h1 className="showcase-header h-color"><hl>Coop</hl>ertron</h1>
         <h2 className="showcase-header-text h-color">
           The only <b>FRC</b> or <b>TBA</b> discord bot you need!
         </h2>
