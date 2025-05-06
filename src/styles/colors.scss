@@ -1,13 +1,14 @@
-$primary-background: #080808;
-$secondary-background: #e8c400ff;
-$tertiary-background: #2b2b2e52;
-$quaternary-background: #1111128b;
+/* Background Colors */
+--primary-background: #192A56; /* Deep, dark blue - Main background */
+--secondary-background: #64B5F6; /* Bright, vibrant blue for prominent accents */
+--tertiary-background: #2E3A5980; /* Dark blue with medium transparency for overlays/cards */
+--quaternary-background: #1C315EBF; /* Deeper blue with slight transparency for subtle variations */
 
-$primary-foreground: #ffffff;
-$secondary-foreground: #eeeeee;
-$tertiary-foreground: #FAFAD2;
-$quaternary-foreground: #e8c400;
-
+/* Foreground (Text & Icon) Colors */
+--primary-foreground: #FFFFFF; /* White for excellent contrast */
+--secondary-foreground: #E3F2FD; /* Very light blue for less critical text */
+--tertiary-foreground: #BBDEFB; /* Light blue for softer highlights */
+--quaternary-foreground: #64B5F6; /* Bright, vibrant blue to match the secondary background, for important elements */
 $fh-link-hover: #e7e7e7;
 $btn-hover: #19191a8b;
 $nav-border: #cccccc21;
